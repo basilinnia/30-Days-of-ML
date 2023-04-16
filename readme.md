@@ -9,5 +9,8 @@ Displaying data (DataFrames, Series), selecting data for modeling, and also buil
 Validating model, Overviewing some terms (mean absolute error, bias, variance, overfitting, underfitting, decision trees ) <br> <br>
 **Used:** sklearn.metrics.mean_absolute_error, sklearn.model_selection.train_test_split , max_leaf_nodes 
 
+# Day 3
+Random Forest Regression
+**Used:** sklearn.ensemble.RandomForestRegressor
 
 
