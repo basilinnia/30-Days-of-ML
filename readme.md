@@ -10,7 +10,15 @@ Validating model, Overviewing some terms (mean absolute error, bias, variance, o
 **Used:** sklearn.metrics.mean_absolute_error, sklearn.model_selection.train_test_split , max_leaf_nodes 
 
 # Day 3
-Random Forest Regression
-**Used:** sklearn.ensemble.RandomForestRegressor
+Random Forest Regression, dealing with missing columns, imputation, dropping columns, shape of training data (num_rows, num_columns) <br><br>
+**Used:** sklearn.ensemble.RandomForestRegressor, .shape, .drop, .isnull(), .any(), axis=0(rows)1(columns), sklearn.impute.SimpleImputer, fit_transform(), transform(), .copy()
+
+# Day 4
+Categorizing data, the curse of dimensionality, dimension reduction, drop categorical variables, ordinal encoding, one-Hot Encoding  <br><br>
+
+**Used:** .nunique(), sklearn.preprocessing.OrdinalEncoder, <br>.select_dtypes(exclude=["object"]) , X_train.dtypes == 'object' ,
+ .dtype in ['int64', 'float64'] , .concat(), .astype(), OneHotEncoder(handle_unknown='ignore', sparse=False)
+
+
 
 
