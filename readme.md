@@ -20,5 +20,7 @@ Categorizing data, the curse of dimensionality, dimension reduction, drop catego
  .dtype in ['int64', 'float64'] , .concat(), .astype(), OneHotEncoder(handle_unknown='ignore', sparse=False)
 
 
-
+# Day5
+Pipeline, ColumnTransformer <br><br>
+**Used:** 
 
