@@ -19,8 +19,14 @@ Categorizing data, the curse of dimensionality, dimension reduction, drop catego
 **Used:** .nunique(), sklearn.preprocessing.OrdinalEncoder, <br>.select_dtypes(exclude=["object"]) , X_train.dtypes == 'object' ,
  .dtype in ['int64', 'float64'] , .concat(), .astype(), OneHotEncoder(handle_unknown='ignore', sparse=False)
 
-
-# Day5
+# Day 5
 Pipeline, ColumnTransformer <br><br>
-**Used:** 
+**Used:** Pipeline(steps=[('preprocessor', preprocessor), ('model', model)]),  ColumnTransformer(transformers=[]), pipeline.fit()
 
+# Day 6
+Cross-Validation <br><br>
+**Used:**  sklearn.model_selection.cross_val_score,  cross_val_score(my_pipeline, X, y, cv=5, scoring="neg_mean_absolute_error")
+
+# Day 7
+Boosting, Gradient Boosting, Weights, Variance, Bias, GradientBoost, AdaBoost, stump, forest of stumps, gini index, residuals, XGBoost <br><br>
+**Used:** XGBRegressor(n_estimators=1000, learning_rate=0.05, n_jobs=4).fit(X_train, y_train,early_stopping_rounds=5,eval_set=[(X_valid, y_valid)],verbose=False)
