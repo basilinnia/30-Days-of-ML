@@ -34,3 +34,7 @@ Boosting, Gradient Boosting, Weights, Variance, Bias, GradientBoost, AdaBoost, s
 # Day 8
 Data Leakage <br> <br>
 **Used:** scoring='accuracy'
+
+ # Day 9
+Deep Learning, Neural Network, Neuron, Bias and Weight's role in neuron model  <br> <br>
+**Used:** tensorflow, keras , keras.Sequential, layers.Dense(units=1, input_shape=[3])
