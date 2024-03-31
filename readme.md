@@ -6,7 +6,7 @@ Displaying data (DataFrames, Series), selecting data for modeling, and also buil
 **Used:** DecisionTreeRegressor() , model.fit(X, y), random_state , .dropna, model.predict(X)
 
 # Day 2
-Validating model, Overviewing some terms (mean absolute error, bias, variance, overfitting, underfitting, decision trees ) <br> <br>
+Validating model, Overviewing some terms (mean absolute error, bias, variance, over-fitting, under-fitting, decision trees ) <br> <br>
 **Used:** sklearn.metrics.mean_absolute_error, sklearn.model_selection.train_test_split , max_leaf_nodes 
 
 # Day 3
@@ -38,3 +38,16 @@ Data Leakage <br> <br>
  # Day 9
 Deep Learning, Neural Network, Neuron, Bias and Weight's role in neuron model  <br> <br>
 **Used:** tensorflow, keras , keras.Sequential, layers.Dense(units=1, input_shape=[3])
+
+# Day 10
+Tensors, Multi-Dimensional Datas, Sequential and Functional Model, Dense layer <br> <br>
+**Used:** model.predict(x), tf.linspace(-1.0, 1.0, 100), matplotlib, tf.keras.Sequential
+
+# Day 11
+Convolution, keras, Image manipulation, Convolutional Neural Network, Padding, Pooling, Strided convolution, Gaussian Blur, Edge Detection, downsampling, upsampling, the mathematical meaning of convolution ([with this video](https://youtu.be/KuXjwB4LzSA?si=NFRIkN-FwYond5OH)) <br> <br>
+**Used:** : Julia Programming language (to work on kernels and images), in Julia I used: Kernel.gaussian(3, 3), @inbounds, clamp, similar(M), using Images, load, RGB
+
+# Day 12
+
+
+
