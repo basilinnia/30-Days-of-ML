@@ -59,7 +59,7 @@ Tensors, Multi-Dimensional Datas, Sequential and Functional Model, Dense layer <
 
 # Day 11
 Convolution, keras, Image manipulation, Convolutional Neural Network, Padding, Pooling, Strided convolution, Gaussian Blur, Edge Detection, downsampling, upsampling, the mathematical meaning of convolution ([with this video](https://youtu.be/KuXjwB4LzSA?si=NFRIkN-FwYond5OH)) <br> <br>
-**Used:** : Julia Programming language (to work on kernels and images), in Julia I used: `Kernel.gaussian(3, 3)`, `@inbounds`, `clamp`, `similar(M)`,`using` `Images`, `load`, `RGB`
+**Used:** : Julia Programming language (to work on kernels and images), in Julia I used: `Kernel.gaussian(3, 3)`, `@inbounds`, `clamp()`, `similar(M)`,`using Images`, `load()`, `RGB()`
 
 # Day 12
 
