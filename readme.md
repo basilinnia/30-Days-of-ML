@@ -58,7 +58,7 @@ Tensors, Multi-Dimensional Datas, Sequential and Functional Model, Dense layer <
 **Used:** `model.predict(x)`, `tf.linspace(-1.0, 1.0, 100)`, matplotlib, `tf.keras.Sequential`
 
 # Day 11
-Convolution, keras, Image manipulation, Convolutional Neural Network, Padding, Pooling, Strided convolution, Gaussian Blur, Edge Detection, downsampling, upsampling, the mathematical meaning of convolution ([with this video](https://youtu.be/KuXjwB4LzSA?si=NFRIkN-FwYond5OH)) <br> <br>
+Convolution, keras, Image manipulation, Convolutional Neural Network, Padding, Pooling(Global Pooling, Max Pooling, Average Pooling, Strided Convolution, Min Pooling), Strided convolution, Gaussian Blur, Edge Detection, downsampling, upsampling, the mathematical meaning of convolution ([with this video](https://youtu.be/KuXjwB4LzSA?si=NFRIkN-FwYond5OH)) <br> <br>
 **Used:** : Julia Programming language (to work on kernels and images), in Julia I used: `Kernel.gaussian(3, 3)`, `@inbounds`, `clamp()`, `similar(M)`,`using Images`, `load()`, `RGB()`
 
 # Day 12
